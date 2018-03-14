@@ -1,9 +1,4 @@
-import React from 'react'
-class Test extends React.Component {
-  render() {
-    return (
-      <div>This is a test Component</div>
-    );
-  }
-}
-export default Test
+import Component1 from './components/file1'
+import Component2 from './components/file2'
+
+export { Component1, Component2 }
